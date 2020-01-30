@@ -10,8 +10,6 @@ def run_kafka_server():
         input_file=input_file,
         topic="PoliceCalls",
         bootstrap_servers="localhost:9092",
-        #         consumer_group="0",
-        #         api_version=(0,10,1)
     )
 
     return producer
